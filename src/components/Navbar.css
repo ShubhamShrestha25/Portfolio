@@ -1,47 +1,3 @@
-/* .navbarr {
-  position: fixed;
-  z-index: 10;
-  left: 20px;
-  right: 0;
-  top: 0;
-  height: 120px;
-}
-
-.right {
-  float: right;
-  padding: 0;
-  margin: 0;
-  width: 60%;
-  height: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.right h1 {
-  font-size: 1.3rem;
-  color: white;
-}
-
-.left {
-  float: left;
-  width: 40%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-
-.left h1 {
-  font-size: 2.3rem;
-  color: white;
-}
-
-
-@media all and (max-width: 768px) {
-  
-} */
-
 .navbarr {
   display: flex;
   justify-content: space-around;
@@ -70,13 +26,8 @@
 .hamburger {
   display: none;
   cursor: pointer;
-}
-
-.hamburger div {
-  width: 25px;
-  height: 3px;
-  margin: 5px;
-  background-color: white;
+  color: white;
+  font-size: 25px;
 }
 
 @media all and (max-width: 1024px) {
@@ -89,6 +40,7 @@
   .App {
     overflow-x: hidden;
   }
+
   .right {
     position: absolute;
     right: 0px;
@@ -102,14 +54,12 @@
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
   }
-  .right h1 {
-    opacity: 0;
-  }
+
   .hamburger {
     display: block;
   }
 }
 
-.right-active {
+.right.active {
   transform: translateX(0%);
 }
