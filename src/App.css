@@ -5,10 +5,6 @@
 }
 
 .App {
-  background-image: url(https://cutewallpaper.org/21/hd-website-backgrounds/4k-Webpage-Background-Hd-Website-Backgrounds-Teriz-.jpg);
-  position: fixed;
   min-width: 100%;
   min-height: 100%;
-  background-size: cover;
-  background-position: center;
 }
