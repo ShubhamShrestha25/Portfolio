@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import "./Navbar.css";
+import {Link} from "react-router-dom";
+
 
 const Navbar = () => {
 
@@ -14,10 +16,10 @@ const Navbar = () => {
             </div>
             
             <div className={click? "right active" : "right"}>
-            <h1 >Home</h1>
-            <h1 >About</h1>
-            <h1 >Skills</h1>
-            <h1 >Contact</h1>
+           <h1> <Link to="/Home" className="disableLink">Home</Link></h1> 
+           <h1><Link to="/About" className="disableLink">About</Link></h1>
+           <h1> <Link to="/Skills"  className="disableLink">Skills</Link></h1>
+           <h1> <Link to="/Contact"  className="disableLink">Contact</Link></h1>
             </div>
             
             <div className="hamburger" onClick={clickHandle}>

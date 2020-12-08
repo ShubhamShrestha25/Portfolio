@@ -63,3 +63,12 @@
 .right.active {
   transform: translateX(0%);
 }
+
+.disableLink {
+  text-decoration: none !important;
+  color: white;
+}
+
+.disableLink:hover {
+  color: white;
+}
