@@ -1,0 +1,11 @@
+.about h1 {
+  color: red;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
