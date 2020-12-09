@@ -115,7 +115,6 @@
 
 @media all and (max-width: 768px) {
   .inputAll {
-    display: inline-block;
     margin-top: 4rem;
     margin-left: 2px;
     width: 60%;
@@ -126,5 +125,39 @@
   .color1,
   .color2 {
     font-size: 30px !important;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .inputAll {
+    margin-top: 1rem;
+
+    width: 70%;
+  }
+
+  .contactLeft {
+    flex-basis: 60%;
+    padding: 20px;
+  }
+
+  .contactRight {
+    flex-basis: 40%;
+    padding: 5px;
+    background: #008000;
+    color: white;
+  }
+  .contactRight h3 {
+    margin-top: 30px;
+  }
+
+  .textArea {
+    width: 150%;
+  }
+  .color1,
+  .color2 {
+    font-size: 20px !important;
+  }
+  .socialMedia {
+    top: 4rem;
   }
 }
