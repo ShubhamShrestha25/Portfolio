@@ -2,9 +2,10 @@
   color: white;
   padding-top: 100px;
   text-align: center;
+  margin-bottom: 10px;
 }
 .contact h3 {
-  padding-top: 200px;
+  text-align: center;
 }
 
 .contact {
@@ -15,6 +16,7 @@
 
 .contactBox {
   display: flex;
+  height: 70vh;
   background: #fff;
 }
 
@@ -26,6 +28,103 @@
 .contactRight {
   flex-basis: 40%;
   padding: 40px;
-  background: #1c00b5;
+  background: #008000;
   color: white;
+}
+
+.inputAll {
+  display: inline-block;
+  margin-top: 5rem;
+  margin-left: 14rem;
+  width: 40%;
+}
+
+.input {
+  flex-basis: 45%;
+  padding-bottom: 2rem;
+}
+
+.inputAll input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.textArea {
+  width: 120%;
+  border: 1px solid black;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.textArea textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+}
+
+.inputAll button {
+  margin-top: 10px;
+  background: #008000;
+  width: 90px;
+  border: none;
+  outline: none;
+  height: 35px;
+  border-radius: 35px;
+  color: #fff;
+}
+
+.inputAll label {
+  font-weight: bold;
+}
+
+.textRight {
+  margin-top: 5rem;
+}
+
+.textRight p {
+  padding-bottom: 2rem;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 5rem;
+}
+
+.color1,
+.color2 {
+  font-size: 40px !important;
+}
+
+.color1:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.color2:hover {
+  cursor: pointer;
+  color: red;
+}
+.socialMedia a {
+  text-decoration: none;
+  color: white;
+}
+
+@media all and (max-width: 768px) {
+  .inputAll {
+    display: inline-block;
+    margin-top: 4rem;
+    margin-left: 2px;
+    width: 60%;
+  }
+  .textArea {
+    width: 150%;
+  }
+  .color1,
+  .color2 {
+    font-size: 30px !important;
+  }
 }

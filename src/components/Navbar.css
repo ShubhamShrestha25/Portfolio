@@ -17,6 +17,10 @@
   font-size: 20px;
 }
 
+.left h1 {
+  cursor: pointer;
+}
+
 .right {
   display: flex;
   width: 30%;
