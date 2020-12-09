@@ -46,7 +46,7 @@
   animation-name: html;
 }
 
-@keyframes html{
+@keyframes html {
   to {
     width: 80%;
   }
@@ -56,7 +56,7 @@
   animation-name: css;
 }
 
-@keyframes css{
+@keyframes css {
   to {
     width: 60%;
   }
@@ -66,7 +66,7 @@
   animation-name: js;
 }
 
-@keyframes js{
+@keyframes js {
   to {
     width: 50%;
   }
@@ -76,7 +76,7 @@
   animation-name: react;
 }
 
-@keyframes react{
+@keyframes react {
   to {
     width: 65%;
   }

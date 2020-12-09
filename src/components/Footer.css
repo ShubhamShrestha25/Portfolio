@@ -1,0 +1,11 @@
+.footer {
+  border-top: 5px solid white;
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
+
+.footer h1 {
+  font-size: 20px;
+}
