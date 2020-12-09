@@ -1,0 +1,31 @@
+.contact h1 {
+  color: white;
+  padding-top: 100px;
+  text-align: center;
+}
+.contact h3 {
+  padding-top: 200px;
+}
+
+.contact {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.contactBox {
+  display: flex;
+  background: #fff;
+}
+
+.contactLeft {
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+
+.contactRight {
+  flex-basis: 40%;
+  padding: 40px;
+  background: #1c00b5;
+  color: white;
+}

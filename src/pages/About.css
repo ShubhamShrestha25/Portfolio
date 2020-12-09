@@ -1,11 +1,27 @@
 .about h1 {
-  color: red;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  margin: 150px;
+ 
 }
-
+.about h2 {
+  color: white;
+  text-align: start;
+  font-size: 30px;
+}
 .about {
-  display: flex;
-  justify-content: center;
+  display: inline-block;
   background-color: black;
   height: 100vh;
   width: 100%;
+}
+
+@media all and (max-width: 768px) {
+  .about h1 {
+    font-size: 30px;
+  }
+  .about h2 {
+    font-size: 20px;
+  }
 }
